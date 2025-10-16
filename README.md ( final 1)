@@ -194,6 +194,8 @@ We wanted the specific part of the operation restart so we putted a lot of loops
 
 5- ‏When we did the first meeting there was a lot of confusion and misunderstanding of the program but with a great team working and a great separation of the work we managed to complete it nicely.
 
+6- in the main program we had a problem with importing the other programs so we listed the import in the first four lines and added their libraries the we called them by the library name then the function name.
+
 
 # future improvements 
 
