@@ -5,17 +5,18 @@ while True:
  try:
     Choice=int(input('Enter your choice: '))
     if Choice==1:
-         print('Standerd Mode')
+        import Standard
     elif Choice==2:
-         print("Programmer Mode") 
+        import Programmer
     elif Choice==3:
           import scientific
     elif Choice==4:
-         print("Converter Mode")
+       import converter
     elif Choice==5:
          break
     elif 5<Choice or Choice<1:
          print("Value Error , Please enter a valid number (1-5)")
     
  except ValueError:
+
      print("Error, Please enter a valid number ")
