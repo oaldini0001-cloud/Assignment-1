@@ -1,2 +1,0 @@
-# Project Objective:
-The objective of this project is to design and implement a console-based calculator application that replicates the core functionalities of the Windows Calculator in its Standard, Programmer, Scientific, and Converter modes. The program will operate entirely through text-based interaction (without any graphical interface) and will emphasize modular programming. A main control module will coordinate the four specialized modules to ensure smooth integration, functionality, and error handling.
