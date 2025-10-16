@@ -1,0 +1,115 @@
+# project Objective
+The objective of this project is to design and implement a console-based calculator application that replicates the core functionalities of the Windows Calculator in its Standard,
+Programmer, Scientific, and Converter modes. The program will operate entirely through text-based interaction (without any graphical interface) and will emphasize modular programming.
+
+
+# Standard Mode Description
+This mode performs basic arithmetic operations, functioning like a simple calculator.
+
+Supported operations:
+	•	Addition (+)
+	•	Subtraction (-)
+	•	Multiplication (*)
+	•	Division (/)
+	•	Modulo (%)
+	•	Exponentiation ()**
+
+Additional functions:
+	•	Square root (√) – calculates the square root of a number.
+	•	Reciprocal (1/x) – finds the reciprocal of a given number.
+	•	Percentage (% of a number) – computes a given percentage of a number.
+
+How it works:
+	•	The program can operate interactively, prompting the user step by step:
+	•	Example:
+	•	Enter operation: add
+	•	Enter first number: 5
+	•	Enter second number: 3
+	•	Result: 8
+	•	Alternatively, it can work in command-based mode, where the user enters a full mathematical expression (e.g., "2 + 3 * 4") to be evaluated.
+	•	The system may use Python’s eval() function with appropriate safeguards to handle expressions or a simple custom parser to evaluate operations safely.
+
+
+# Programmer Mode Description
+The Programmer Mode provides functions commonly used by programmers, including base conversions and bitwise operations. It allows conversions between decimal, binary, octal, and hexadecimal number systems (and vice versa). Supported bitwise operations include AND (&), OR (|), XOR (^), NOT (~), left shift (<<), and right shift (>>).
+
+This mode supports integer inputs only and operates through a menu-driven interface — for example:
+	1.	Convert decimal to binary
+	2.	Perform bitwise AND
+
+For conversions, the program prompts the user to enter a number and choose the target base.
+For bitwise operations, it prompts for two integers and the desired operator.
+
+
+#  Scientific Mode Description  
+It’s a Python program that performs a wide range of scientific calculations including trigonometric, inverse trigonometric, logarithmic, exponential, hyperbolic functions, factorials, and constant values (π and e).
+It supports angle conversion between degrees and radians, validates user input, and handles errors gracefully to ensure the program doesn’t crash.
+The user can perform multiple calculations through a simple text-based menu and return to the main menu at any time.
+
+
+# converter mode Description  
+This mode allows users to convert values between different measurement units across several categories.
+
+Supported categories and units:
+	1.	Length: meters (m), centimeters (cm), feet (ft), inches (in)
+	•	Example: Convert 100 cm to inches → 39.37 in
+	2.	Weight: kilograms (kg), grams (g), pounds (lb), ounces (oz)
+	•	Example: Convert 2 kg to pounds → 4.41 lb
+	3.	Temperature: Celsius (°C), Fahrenheit (°F), Kelvin (K)
+	•	Example: Convert 25°C to Fahrenheit → 77°F
+	4.	Volume (optional): liters (L), milliliters (ml), gallons (gal), ounces (oz)
+	•	Example: Convert 1 liter to gallons → 0.264 gal
+
+How it works:
+	•	The program displays a sub-menu for selecting a conversion category (e.g., “1. Length”, “2. Weight”, etc.).
+	•	After choosing the category, the user selects the source unit and target unit, then enters the value to convert.
+	•	The program uses predefined conversion factors (constants) in the code to perform accurate conversions.
+	•	The result is displayed clearly with both the input and converted 
+
+
+# team contributions 
+
+# Main Program
+by Omar Al-Dini – It’s a Python program that combines all other programs into one, allowing the user to switch between them easily and smoothly.
+
+
+# Standard Mode
+by Abdullah Alqadi – It’s a Python program that deals with simple operations such as addition, subtraction, multiplication, division, etc... with input validation and error handling.
+
+
+
+# Programming mode
+made by Yousef Dobaie and Abdullah Bamufleh, is a programming calculator mode that is specialize in base conversions and betwise operations.
+
+
+# Scientific Mode
+by Ali Almalki – It’s a Python program that performs trigonometric, logarithmic, exponential, hyperbolic functions, factorials, and constants, with input validation and error handling.
+
+
+# Converter Mode
+by Omar Al-Thaqafi –It’s a Python program that converts units of length, weight, and temperature accurately and efficiently.
+
+
+# challenges faced during the program 
+
+
+
+
+# future improvements 
+
+1- make an unique interface for the program to be easier for the user 
+
+2- add a matrix mode to solve (3*3) matrix and (3*4) matrix 
+
+3- Let’s make the program support complex (imaginary) numbers in a mode.
+
+
+
+
+
+
+
+
+
+
+
